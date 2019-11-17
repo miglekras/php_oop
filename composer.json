@@ -1,0 +1,27 @@
+{
+  "name": "migle/oop",
+  "description": "opp homework",
+  "authors": [
+    {
+      "name": "Migle",
+      "email": "kr.migle@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "files": [
+      "ReservableInterface.php",
+      "./Classes/Room.php",
+      "./Classes/SingleRoom.php",
+      "./Classes/Bedroom.php",
+      "./Classes/RoomType.php",
+      "./Classes/RoomInformation.php",
+      "./Classes/Reservation.php",
+      "./Classes/ApartmentRoom.php",
+      "BookingManager.php",
+      "./Classes/Guest.php"
+    ]
+
+  }
+}
